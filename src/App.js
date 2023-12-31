@@ -94,11 +94,12 @@ const TodoApp = () => {
             {editingTodoId === todo.id ? (
               <form onSubmit={(event) => handleUpdateTodo(event, todo.id)}>
                 <input
+                className='text'
                   type="text"
                   value={editingTodoText}
                   onChange={(event) => setEditingTodoText(event.target.value)}
                 />
-                <button type="submit" style={{marginRight:"45px"}}> Save </button>
+                <button type="submit" className='btn5' style={{marginRight:"45px"}}> Save </button>
               </form>
             ) : (
               <div style={{alignItems:"center" , display:"flex"}}>

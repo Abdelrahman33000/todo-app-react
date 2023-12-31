@@ -24,6 +24,12 @@
   width: 95%;
   margin:auto;
 }
+.btn5{
+  margin-right: 0px;
+}
+.text{
+  margin-left: -25px;
+}
  }
  input{
    outline: none;
